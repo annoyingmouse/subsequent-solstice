@@ -7,9 +7,12 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "lint": "npx @biomejs/biome format --write .\\src"
+    "lint": "biome format --write .\\src"
   },
   "dependencies": {
     "astro": "^5.8.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4"
   }
 }
