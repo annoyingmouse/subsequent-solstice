@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev --verbose",
+    "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
@@ -12,7 +12,7 @@
   "dependencies": {
     "@astrojs/preact": "^4.1.0",
     "@astrojs/rss": "^4.0.12",
-    "astro": "^5.8.1",
+    "astro": "^5.9.0",
     "preact": "^10.26.8"
   },
   "devDependencies": {
